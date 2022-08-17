@@ -1,0 +1,147 @@
+CRITICAL - 2022-08-17 13:01:29 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:01:59 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:02:00 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:02:00 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:03:31 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:03:31 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:03:39 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:04:42 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:04:43 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:04:44 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:05:00 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:05:01 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:05:02 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:05:02 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:05:02 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:05:02 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:06:48 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:06:49 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:06:49 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:07:02 --> Class 'App\Models\UsuarioModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:07:18 --> Class 'App\Models\LivroModel' not found
+in APPPATH\Controllers\Livro.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:07:38 --> Call to undefined function vard_dump()
+in APPPATH\Views\teste_view.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('teste_view', [], true)
+ 4 APPPATH\Controllers\Livro.php(12): view('teste_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 13:07:50 --> Undefined variable: retorno
+in APPPATH\Views\teste_view.php on line 10.
+ 1 APPPATH\Views\teste_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: retorno', 'APPPATH\\Views\\teste_view.php', 10, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\teste_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('teste_view', [], true)
+ 5 APPPATH\Controllers\Livro.php(12): view('teste_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

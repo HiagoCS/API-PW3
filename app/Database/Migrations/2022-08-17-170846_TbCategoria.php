@@ -16,9 +16,6 @@ class TbCategoria extends Migration
             'nome' =>[
                 'type' => 'VARCHAR',
                 'constraint' => 199
-            ],
-            'descricao' =>[
-                'type' =>'LONGTEXT'
             ]
         ]);
         $this->forge->addPrimaryKey('id', TRUE);
