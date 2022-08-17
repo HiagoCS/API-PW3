@@ -26,11 +26,11 @@ class TbLivro extends Migration
             ]
         ]);
         $this->forge->addPrimaryKey('id', TRUE);
-        $this->forge->createTable('tb_usuario', TRUE);
+        $this->forge->createTable('tb_livro', TRUE);
     }
 
     public function down()
     {
-        $this->forge->dropTable('tb_usuario', TRUE);
+        $this->forge->dropTable('tb_livro', TRUE);
     }
 }
