@@ -37,7 +37,8 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Livro::index');
 
-$routes->get('/(:num)', 'Home::listUnique/$1');
+$routes->get('/(:num)', 'Livro::returnUnique/$1');
+$routes->get('/max/(:num)', 'Livro::returnWithMax/$1');
 
 /*
  * --------------------------------------------------------------------
