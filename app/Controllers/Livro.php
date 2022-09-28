@@ -17,7 +17,11 @@ class Livro extends BaseController
         $livroModel = new \App\Models\LivroModel();
         $data['livros'] = $livroModel->findAll($max);
     }
-
+    public function returnToken($id, $token){
+        $livroModel = new \App\Models\LivroModel();
+        $livro - $livroModel->where('token', $token)->find($id);
+        return var_dump($livro);
+    }
     public function insert(){
         $livroModel = new \App\Models\LivroModel();
         $livro = new LivroConstruct(
@@ -28,7 +32,7 @@ class Livro extends BaseController
         $livroModel->postInserir((array)$livro);
     }
 
-    public function editar($id){
+    public function putEditar($id){
         $livroModel = new \App\Models\LivroModel();
         if($this->request->getMethod() == 'put'){
             $data = $this->request->getJSON();
@@ -37,6 +41,31 @@ class Livro extends BaseController
             }
             else{
                 return "Erro na edição!";
+            }
+        }
+    }
+
+    public function patchEditar($id){
+        $livroModel = new \App\Models\LivroModel();
+        if($this->request->getMethod() == 'patch'){
+            $data = $this->request->getJSON();
+            if($livroModel->update($id, $data)){
+                return "Sucesso na edição!";
+            }
+            else{
+                return "Erro na edição!";
+            }
+        }
+    }
+
+    public function excluir($id){
+        $livroModel = new \App\Models\LivroModel();
+        if($this->request->getMethod() == 'delete'){
+            if($livroModel->delete($id)){
+               return "Sucesso na exclusão!!"; 
+            }
+            else{
+                return "Erro na exclusão!!";
             }
         }
     }

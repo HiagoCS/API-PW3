@@ -23,6 +23,10 @@ class TbLivro extends Migration
             'autor' =>[
                 'type' =>'VARCHAR',
                 'constraint' => 199
+            ],
+            'token' =>[
+                'type' => 'VARCHAR',
+                'constraint' => 10
             ]
         ]);
         $this->forge->addPrimaryKey('id', TRUE);

@@ -39,12 +39,19 @@ $routes->get('/', 'Livro::index');
 
 $routes->get('/(:num)', 'Livro::returnUnique/$1');
 $routes->get('/max/(:num)', 'Livro::returnWithMax/$1');
+$routes->get('/livro/(:num)/(:any)', 'Livro::returnToken/$1/$2');
 
 //Rotas POST
 $routes->post('/livro/insert', 'Livro::insert');
 
 //Rotas PUT
-$routes->put('/livro/edit/(:num)', 'Livro::editar/$1');
+$routes->put('/livro/edit/(:num)', 'Livro::putEditar/$1');
+
+//Rotas PATCH
+$routes->patch('/livro/edit/(:num)', 'Livro::patchEditar/$1');
+
+//Rotas DELETE
+$routes->delete('/livro/delete/(:num)', 'Livro::excluir/$1');
 
 /*
  * --------------------------------------------------------------------
