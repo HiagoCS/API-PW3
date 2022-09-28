@@ -17,6 +17,16 @@ class Livro extends BaseController
         $livroModel = new \App\Models\LivroModel();
         $data['livros'] = $livroModel->findAll($max);
     }
+
+    public function insert(){
+        $livroModel = new \App\Models\LivroModel();
+        $livro = new LivroConstruct(
+            $this->request->getPost('nome'),
+            $this->request->getPost('descricao'),
+            $this->request->getPost('autor')
+        );
+        $livroModel->postInsert((array)$livro);
+    }
 }
 
 class LivroConstruct{
