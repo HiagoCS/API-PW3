@@ -12,6 +12,7 @@ class Livro extends BaseController
     public function returnUnique($id){
         $livroModel = new \App\Models\LivroModel();
         $data['livros'] = $livroModel->find($id);
+        return var_dump($data);
     }
     public function returnWithMax($max){
         $livroModel = new \App\Models\LivroModel();
@@ -19,7 +20,7 @@ class Livro extends BaseController
     }
     public function returnToken($id, $token){
         $livroModel = new \App\Models\LivroModel();
-        $livro - $livroModel->where('token', $token)->find($id);
+        $livro = $livroModel->where('token', $token)->find($id);
         return var_dump($livro);
     }
     public function insert(){

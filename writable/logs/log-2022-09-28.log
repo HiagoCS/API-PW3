@@ -84,3 +84,10 @@ in APPPATH\Controllers\Livro.php on line 22.
  3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
  4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 16:51:00 --> Undefined variable: livro
+in APPPATH\Controllers\Livro.php on line 23.
+ 1 APPPATH\Controllers\Livro.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: livro', 'APPPATH\\Controllers\\Livro.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Livro->returnToken('1', 'c4ca4')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
