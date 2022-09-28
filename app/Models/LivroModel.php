@@ -6,5 +6,14 @@
         protected $primaryKey = 'id';
         protected $allowedFields = ['nome', 'descricao', 'autor'];
         protected $returnType = 'object';
+
+        public function postInserir($livro_data){
+            if($this->insert($livro_data)){
+                return "Sucesso na inserção!!";
+            }
+            else{
+                return "Erro na inserção!!";
+            }
+        }
     }
 ?>
