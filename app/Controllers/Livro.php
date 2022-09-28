@@ -18,3 +18,11 @@ class Livro extends BaseController
         $data['livros'] = $livroModel->findAll($max);
     }
 }
+
+class LivroConstruct{
+    public function __construct($nome, $descricao, $autor){
+        $this->nome = $nome == '' ? null : $nome;
+        $this->descricao = $descricao == '' ? null : $descricao;
+        $this->autor = $autor == '' ? null : $autor;
+    }
+}
