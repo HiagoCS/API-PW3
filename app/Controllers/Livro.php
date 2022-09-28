@@ -25,7 +25,7 @@ class Livro extends BaseController
             $this->request->getPost('descricao'),
             $this->request->getPost('autor')
         );
-        $livroModel->postInsert((array)$livro);
+        $livroModel->postInserir((array)$livro);
     }
 }
 
