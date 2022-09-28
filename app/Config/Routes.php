@@ -43,6 +43,9 @@ $routes->get('/max/(:num)', 'Livro::returnWithMax/$1');
 //Rotas POST
 $routes->post('/livro/insert', 'Livro::insert');
 
+//Rotas PUT
+$routes->put('/livro/edit/(:num)', 'Livro::editar/$1');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

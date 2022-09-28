@@ -27,6 +27,19 @@ class Livro extends BaseController
         );
         $livroModel->postInserir((array)$livro);
     }
+
+    public function editar($id){
+        $livroModel = new \App\Models\LivroModel();
+        if($this->request->getMethod() == 'put'){
+            $data = $this->request->getJSON();
+            if($livroModel->update($id, $data)){
+                return "Sucesso na edição!";
+            }
+            else{
+                return "Erro na edição!";
+            }
+        }
+    }
 }
 
 class LivroConstruct{
